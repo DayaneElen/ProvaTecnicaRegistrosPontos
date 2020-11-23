@@ -174,3 +174,4 @@ C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\Re
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\RegistrosPontos\Report.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MessageSweetAlert.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\RegistrosPontos\Create.cshtml.g.cs
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\ProvaTecnica20201123012501 - Web Deploy\profile.arm.json
