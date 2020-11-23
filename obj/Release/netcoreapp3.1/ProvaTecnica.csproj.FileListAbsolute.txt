@@ -3,7 +3,6 @@ C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\appsettings.
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\serviceDependencies.local.json
-C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ProvaTecnica20201123012501 - Web Deploy\profile.arm.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\ProvaTecnica.exe
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\ProvaTecnica.deps.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\ProvaTecnica.runtimeconfig.json
@@ -175,3 +174,4 @@ C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\staticwebass
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.pdb
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.genruntimeconfig.cache
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ProvaTecnica - Web Deploy\profile.arm.json
