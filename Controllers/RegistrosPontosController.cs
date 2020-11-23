@@ -68,10 +68,9 @@ namespace ProvaTecnica.Controllers
                     }
                 }
 
-                registrosPontos.Data = DateTime.Today;
-
-                TimeSpan timeNow = DateTime.Now.TimeOfDay;
-                registrosPontos.Hora = new TimeSpan(timeNow.Hours, timeNow.Minutes, timeNow.Seconds);
+                var now = DateTime.UtcNow;
+                registrosPontos.Data = now;
+                registrosPontos.Hora = new TimeSpan(now.Hour, now.Minute, now.Second);
 
                 _context.Add(registrosPontos);
                 await _context.SaveChangesAsync();
@@ -89,7 +88,9 @@ namespace ProvaTecnica.Controllers
             {
                 var dataFinal = DateTime.Parse(DataFinal.Year + "-" + DataFinal.Month + "-" + DataFinal.Day + " 23:59:59");
 
-                var relatorio = await _context.RegistrosPontos.FromSqlRaw("SELECT Id, Data, Hora, NomeUsuario, Tipo FROM RegistrosPontos WHERE Data between '" + DataInicial.ToString() + "' AND '" + dataFinal.ToString() + "' AND NomeUsuario = '" + NomeUsuario + "'").ToListAsync();
+                var sql = $"SELECT Id, Data, Hora, NomeUsuario, Tipo FROM RegistrosPontos WHERE Data between CONVERT(DATETIME, '{DataInicial:yyyy-MM-dd HH:mm:ss}', 102) AND CONVERT(DATETIME, '{dataFinal:yyyy-MM-dd HH:mm:ss}', 102) AND NomeUsuario = '{NomeUsuario}'";
+                
+                var relatorio = await _context.RegistrosPontos.FromSqlRaw(sql).ToListAsync();
 
                 if (relatorio.Count == 0)
                 {
@@ -97,6 +98,12 @@ namespace ProvaTecnica.Controllers
                     return RedirectToAction("IndexReport", "RegistrosPontos");
                 }
 
+                relatorio.ForEach(x =>
+                {
+                    var data = new DateTime(x.Data.Year, x.Data.Month, x.Data.Day, x.Hora.Hours, x.Hora.Minutes, x.Hora.Minutes).ToLocalTime();
+                    x.Data = data;
+                    x.Hora = data.TimeOfDay;
+                });
                 return View(relatorio);
             }
             else

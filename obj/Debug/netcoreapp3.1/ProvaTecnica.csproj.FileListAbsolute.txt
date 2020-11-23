@@ -169,9 +169,9 @@ C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\ProvaTecnica.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\ProvaTecnica.pdb
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\ProvaTecnica.genruntimeconfig.cache
-C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\ProvaTecnica.csprojAssemblyReference.cache
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\RegistrosPontos\IndexReport.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\RegistrosPontos\Report.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MessageSweetAlert.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Debug\netcoreapp3.1\Razor\Views\RegistrosPontos\Create.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\ProvaTecnica - Web Deploy\profile.arm.json
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Debug\netcoreapp3.1\web.config
