@@ -1,10 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Configuration;
 using static ProvaTecnica.Enums.Enums;
 
 namespace ProvaTecnica.Controllers
 {
     public class BaseController : Controller
     {
+        ConfigurationRoot configuration = (ConfigurationRoot)new ConfigurationBuilder()
+            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+            .AddJsonFile("appsettings.json")
+            .Build();
+        protected string StringConexao => configuration.GetConnectionString("Provider");
         public void chamarSweetAlert(string mensagem, TipoSweetAlert tipoSweetAlert)
         {
             var iconNotification = "";

@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ProvaTecnica.Models.RegistrosPontos>
+﻿@model List<ProvaTecnica.Models.DtoRegistroPonto>
 
 @{
     ViewData["Title"] = "Relatorio";
@@ -11,16 +11,16 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Data)
+                Data
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Hora)
+                Hora
             </th>
             <th>
                 Usuário
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Tipo)
+                Tipo
             </th>
         </tr>
     </thead>
@@ -29,20 +29,20 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Data)
+                    @item.Registro.ToString("dd/MM/yyyy")
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Hora)
+                    @item.Registro.ToString("HH:mm:ss")
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.NomeUsuario)
+                    @item.NomeUsuario
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Tipo)
+                    @item.Tipo
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a href="IndexReport" class="btn btn-primary">Voltar</a>
+<a href="Index" class="btn btn-primary">Voltar</a>
