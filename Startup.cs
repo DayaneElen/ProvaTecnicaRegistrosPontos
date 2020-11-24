@@ -1,10 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ProvaTecnica.Data;
 
 namespace ProvaTecnica
 {
@@ -22,8 +20,9 @@ namespace ProvaTecnica
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<ProvaTecnicaContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("ProvaTecnicaContext")));
+            // Add EF services to the services container.
+            //services.AddDbContext<ProvaTecnicaContext>(options =>
+            //options.UseSqlServer(Configuration.GetConnectionString("ProvaTecnicaContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

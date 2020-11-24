@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://provatecnica.azurewebsites.net/",
+      "applicationUrl": "http://localhost:52234",
       "sslPort": 44389
     }
   },

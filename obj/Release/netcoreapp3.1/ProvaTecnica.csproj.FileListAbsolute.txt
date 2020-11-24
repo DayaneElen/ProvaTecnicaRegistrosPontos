@@ -1,8 +1,10 @@
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\web.config
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\appsettings.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ProvaTecnica - Web Deploy\profile.arm.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\ProvaTecnica.exe
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\ProvaTecnica.deps.json
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\ProvaTecnica.runtimeconfig.json
@@ -50,6 +52,7 @@ C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Microsoft.Vi
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
@@ -65,10 +68,15 @@ C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Compo
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Drawing.Common.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\System.Windows.Extensions.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -131,6 +139,7 @@ C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -143,8 +152,16 @@ C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Servicos.dll
+C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Servicos.pdb
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.csprojAssemblyReference.cache
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.AssemblyInfoInputs.cache
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.AssemblyInfo.cs
@@ -157,7 +174,7 @@ C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.RazorCoreGenerate.cache
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\RegistrosPontos\Create.cshtml.g.cs
-C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\RegistrosPontos\IndexReport.cshtml.g.cs
+C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\RegistrosPontos\Index.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\RegistrosPontos\Report.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -174,4 +191,3 @@ C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\staticwebass
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.dll
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.pdb
 C:\Users\Dayane\source\repos\ProvaTecnica\obj\Release\netcoreapp3.1\ProvaTecnica.genruntimeconfig.cache
-C:\Users\Dayane\source\repos\ProvaTecnica\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ProvaTecnica - Web Deploy\profile.arm.json

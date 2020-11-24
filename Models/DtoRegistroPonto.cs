@@ -3,19 +3,15 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ProvaTecnica.Models
 {
-    public class RegistrosPontos
+    public class DtoRegistroPonto
     {
-        [Key]
         public int Id { get; set; }
 
-        [DataType(DataType.Date)]
-        public DateTime Data { get; set; }
+        public DateTime Registro { get; set; }
 
         public string NomeUsuario { get; set; }
 
         public string Tipo { get; set; }
 
-        [DataType(DataType.Time)]
-        public TimeSpan Hora { get; set; }
     }
 }
